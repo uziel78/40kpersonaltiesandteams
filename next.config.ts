@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
       {
-        hostname: 'acoustic-mastiff-678.convex.cloud',
+        hostname: 'capable-hornet-134.eu-west-1.convex.cloud',
         protocol: 'https',
         port: '',
         pathname: '/**',

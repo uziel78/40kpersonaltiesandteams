@@ -1,6 +1,8 @@
-A full-stack blog application built with **Next.js 16**, **Convex**, and **Better Auth**. It features real-time posts and comments, full-text search, user authentication, dark/light theme support, and live presence indicators.
+# Next.js 16 GrimdarkPlayers&Teams
 
-**Live Demo:** [nextjs-16-fundamentals.vercel.app](https://nextjs-16-fundamentals.vercel.app)
+This project is a full-stack blog application built with Next.js 16, Convex, and Better Auth, featuring real-time posts and comments, full-text search, user authentication, theme switching, and live presence indicators.
+
+**Live Demo:**
 
 ## Getting Started
 
@@ -14,7 +16,7 @@ A full-stack blog application built with **Next.js 16**, **Convex**, and **Bette
 ```bash
 # Clone the repository
 git clone <repo-url>
-cd nextjs-16-fundamentals
+cd nextjs-16-personalitiesandteams
 
 # Install dependencies
 pnpm install
