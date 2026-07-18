@@ -40,6 +40,26 @@ pnpm dlx convex dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+### MCP Support in VS Code (Next.js + Convex)
+
+This repository includes a workspace MCP config at `.vscode/mcp.json` with:
+
+- `next-devtools` via `next-devtools-mcp`
+- `convex` via `npx convex mcp start`
+
+To use it:
+
+1. Open this project in VS Code.
+2. Ensure MCP servers are trusted/enabled when prompted.
+3. Run the local dev stack:
+
+```bash
+pnpm dev
+pnpm dlx convex dev
+```
+
+`next-devtools` will automatically attach to the running Next.js dev server, and the Convex MCP server will expose Convex tools to your coding agent.
+
 ### Building for Production
 
 ```bash
