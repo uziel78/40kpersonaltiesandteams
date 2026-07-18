@@ -40,12 +40,13 @@ pnpm dlx convex dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### MCP Support in VS Code (Next.js + Convex)
+### MCP Support in VS Code (Next.js + Convex + shadcn/ui)
 
 This repository includes a workspace MCP config at `.vscode/mcp.json` with:
 
 - `next-devtools` via `next-devtools-mcp`
 - `convex` via `npx convex mcp start`
+- `shadcn` via `pnpm dlx shadcn mcp`
 
 To use it:
 
@@ -58,7 +59,7 @@ pnpm dev
 pnpm dlx convex dev
 ```
 
-`next-devtools` will automatically attach to the running Next.js dev server, and the Convex MCP server will expose Convex tools to your coding agent.
+`next-devtools` will automatically attach to the running Next.js dev server, the Convex MCP server will expose Convex tools to your coding agent, and the shadcn MCP server lets your coding agent browse, search, and install shadcn/ui components and blocks directly into the project.
 
 ### Building for Production
 
